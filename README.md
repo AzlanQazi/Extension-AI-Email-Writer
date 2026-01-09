@@ -54,3 +54,10 @@ Navigate to `/email-writer-react`:
 - **Reactive Programming:** Implemented `WebClient` for efficient API calls.
 - **Cross-Origin Security:** Configured CORS to allow the extension to communicate with the Render-hosted API.
 - **Prompt Engineering:** Custom logic to transform raw email text into high-quality AI prompts.
+
+---
+
+## 📐 Low-Level Design (LLD)
+The following diagram illustrates the internal components of the Spring Boot backend, the data flow from the Chrome Extension, and the integration with the Gemini AI service.
+
+![System Design](docs/system-design.png)
