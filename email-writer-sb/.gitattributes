@@ -1,2 +1,12 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+
+# Vendor the Maven wrapper so it doesn't show as Shell code
+email-writer-sb/mvnw linguist-vendored
+email-writer-sb/mvnw.cmd linguist-vendored
+email-writer-sb/.mvn/* linguist-vendored
+
+# Ensure your Java and JS are the stars
+*.java linguist-detectable=true
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
