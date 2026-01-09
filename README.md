@@ -60,4 +60,4 @@ Navigate to `/email-writer-react`:
 ## 📐 Low-Level Design (LLD)
 The following diagram illustrates the internal components of the Spring Boot backend, the data flow from the Chrome Extension, and the integration with the Gemini AI service.
 
-![System Design](docs/system-design.png)
+![System Design](system-design.png)
